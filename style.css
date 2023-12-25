@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: gray;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.container{
+  max-width: 1000px;
+  background-color: seagreen;
+  margin: 0 auto;
+ padding: 20px;
+padding-bottom: 0px;  
+  
+}
+.profile-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid black;
+  float: left;
+  
+}
+.prfile-bio{
+  float: left;
+  padding: 30px;
+}
+.header-contract{
+  float:right;
+  padding: 30px;
+
+
+}
+.header-contract a {
+  text-decoration: none;
+  font-weight: bolder;
+  
+  
+}
+.header-contract a:hover{
+  color: brown;
+  text-decoration: underline;
+ background-color: steelblue;
+}
+.div-clear{
+  clear: both;
+}
+hr{
+  border: solid 3px teal;
+  margin: 20px auto;
+  width: 100%;
+  border-bottom: none;
+}
+
+#personal-section{
+
+}
+.container{
+
+}
+.left-div{
+  width: 30%;
+  float: left;
+}
+.right-div{
+  width: 70%;
+  float: right;
+}
+.ref-telmplet-left{
+  width: 50%;
+  float: left;
+}
+.ref-telmplet-right{
+  width: 50%;
+  float: right;
+}
+.f-class{
+
+ background-color: black;
+ text-align: center;
+ padding: 10px;
+
+}
+.f-class a{
+  color:white;
+  text-decoration: none;
+  margin: 20px;
+ }
+ .f-class p{
+  color:white;
+   margin-top:  20px;
+ }
+
+
+ .jobs li{
+  font-size: 20px;
+  font-weight: 600;
+ }
